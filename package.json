@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-architecture",
+  "version": "1.0.0",
+  "description": "Architecture",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pr-1/node-rest-api-architecture.git"
+  },
+  "author": "Prince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pr-1/node-rest-api-architecture/issues"
+  },
+  "homepage": "https://github.com/pr-1/node-rest-api-architecture#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "morgan": "^1.9.1"
+  }
+}
